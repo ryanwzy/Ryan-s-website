@@ -1,0 +1,200 @@
+/*@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');*/
+@import url('https://fonts.googleapis.com/css?family=Frank Ruhl Libre');
+
+html,
+body {
+    overflow: hidden;
+    margin: 0;
+    font-family: "Frank Ruhl Libre";
+}
+
+
+body {
+    /*background-image: url(bg.png);*/
+    color: #4dffdb;
+    width: 100wh;
+    height: 100vh;
+
+    background-image: linear-gradient(-20deg, #d82d13, #ff91bb, #23A6D5, #3cf2c7);
+    background-color: black;
+
+}
+
+
+/*form*/
+a {
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    /*    width: 150px;
+    height: 230px;
+    margin: 0;
+    padding: 0;
+    background-size: cover !important;
+    background-repeat: no-repeat;*/
+}
+
+ul {
+    display: block;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+ul li {
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+
+}
+
+body ul li span {
+    font-size: 14px;
+    color: #5a5a5a;
+    text-align: center;
+}
+
+body ul li img {
+    margin: 5px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+
+
+form {
+    position: relative;
+    /*top: -100%;*/
+    font-size: 20px;
+    color: #4dffdb;
+    margin: 0 auto;
+    padding-left: 35%;
+    /*padding-top: 20%;*/
+}
+
+form input[type=text],
+form input[type=password],
+form input[type=number] {
+    width: 500px;
+    padding: 10px;
+    border: none;
+}
+
+#submit {
+    font-family: "Frank Ruhl Libre";
+    display: block;
+    font-size: 12px;
+    --color: #4dffdb;
+    --hover: #4dffdb;
+    background: none;
+    cursor: pointer;
+}
+
+#submit:hover,
+#submit:focus {
+    box-shadow: inset 13em 0 0 0 var(--hover);
+}
+
+button {
+    font-family: "Frank Ruhl Libre";
+    background: block;
+    border: 1px solid;
+    line-height: 1;
+    padding: 1em 3.5em;
+    color: var(--color);
+    transition: 0.5s;
+}
+
+button:hover {
+    border-color: var(--hover);
+    color: black;
+}
+
+button:focus {
+    outline: none;
+}
+
+form label {
+    font-family: "Frank Ruhl Libre";
+    padding: 5px 0;
+    display: block;
+    margin-top: 15px;
+
+}
+
+form .error {
+    font-family: "Frank Ruhl Libre";
+    font-size: 80%;
+    color: darkred;
+}
+
+
+
+
+/*show books*/
+#book_list_container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    left: 5%;
+    /*margin-top:-20%;*/
+
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    /*  grid-gap: 10px;*/
+    /*background-color: #2196F3;*/
+    /*padding: 10px;*/
+
+}
+
+#book_list_container .book_item {
+    background: none;
+    text-align: left;
+
+}
+
+#book_list_container .book_item .book_thmb {
+    /*box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.2);*/
+    width: 150px;
+    height: 230px;
+    margin: 0;
+    padding: 0;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+}
+
+
+
+
+#book_list_container .book_item a {
+    color: #fff;
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#not_match {
+    display: none;
+    text-align: center;
+}
+
+.book {
+    padding-top: 36px;
+    text-align: left;
+}
+
+/*iframe {
+
+    width: 20%;
+    height: 20%;
+    margin: 0 auto;
+    background: black;
+    z-index: 0;
+}*/
