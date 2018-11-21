@@ -830,7 +830,7 @@ ol li {
 ul {
     list-style: disc;
     margin: 0 0 2rem 0;
-    padding-left: 1em;
+    /*padding-left: 1em;*/
 }
 
 ul li {
@@ -1729,7 +1729,7 @@ body.is-preload #header .content .inner {
 
     #header nav ul li {
         border-left: 0;
-        border-top: solid 1px #ffffff;
+        border-top: solid 1px transparent;
     }
 
     #header nav ul li:first-child {
